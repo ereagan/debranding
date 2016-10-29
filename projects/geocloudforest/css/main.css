@@ -1,13 +1,13 @@
 #download {
   font-family: Garamond;
   font-weight: bold;
-  width: 75%; /* download div is 50% of the window*/
+  width: 75%; /* download div is 75% of the window*/
   margin: auto; /* margin auto will most of the time and center */
   /*
   left: 120px;
   */
   text-align: center; /* centers text */
-  font-size: 75px;
+  font-size: 60px;
   position: relative; /* positioning relative to surrounding elements */
 }
 
@@ -15,4 +15,24 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
