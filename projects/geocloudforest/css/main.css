@@ -1,0 +1,18 @@
+#download {
+  font-family: Garamond;
+  font-weight: bold;
+  width: 75%; /* download div is 50% of the window*/
+  margin: auto; /* margin auto will most of the time and center */
+  /*
+  left: 120px;
+  */
+  text-align: center; /* centers text */
+  font-size: 75px;
+  position: relative; /* positioning relative to surrounding elements */
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: auto;
+}
